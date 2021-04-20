@@ -104,5 +104,8 @@
         left: 25px;
       }
       .justi{
-        -ms-text-justify: auto;
+        position: relative;
+        display: inline;
+        align-items: flex-start;
+        justify-content: space-between;
       }
