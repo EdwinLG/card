@@ -1,0 +1,9 @@
+#banner {
+  background: url(../images/symbolic.jpg); 
+  height: 300px;
+}
+
+#banner h1{
+  color: white;
+  text-align: center;
+}

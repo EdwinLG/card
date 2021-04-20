@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+@import 'banner.css';
+@import 'card.css';
+
+html, body{ font-family: 'Roboto', sans-serif; }
+
+.azul, .rojo{ text-align: justify; }
+.azul { color: blue; }
+.rojo { color: red; }
+
+.mostrarPadding{
+  border: 10px solid #000;
+  padding: 0;
+  margin: 0;
+}
+
+#menu{
+  padding: 0 10px; 
+  background: firebrick;
+  height: 50px;
+}
+#menu ul{ 
+  height: 100%;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#menu ul li{ 
+  display: inline;
+  margin-right: 30px;
+  }
+
+    #menu ul li a{
+      text-decoration: none;
+      color: white;
+    }
+
+    #menu ul li a:hover{
+      text-decoration: underline;
+      color: rgba( 255, 255, 255, 0.5 )
+    }
